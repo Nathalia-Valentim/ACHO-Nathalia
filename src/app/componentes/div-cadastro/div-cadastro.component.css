@@ -1,134 +1,134 @@
 .retangulo {
-    width: 480px;
-    height: 472px;
-    background-color: #E15C31;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 56%;
-    margin-top: 8%;
+  width: 480px;
+  height: 472px;
+  background-color: #E15C31;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 56%;
+  margin-top: 8%;
 }
 
 .div-input {
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
-    color: #E4E2DD;
-    font-size: 32px;
-    margin-top: 8%;
-    font-weight: 700;
-    letter-spacing: 1px;
-    align-self: flex-start;
-    margin-left: 8%;
-    text-align: left;
+  color: #E4E2DD;
+  font-size: 32px;
+  margin-top: 8%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  align-self: flex-start;
+  margin-left: 8%;
+  text-align: left;
 }
 
 h2 {
-    color: #E4E2DD;
-    font-size: 16px;
-    font-weight: 400;
+  color: #E4E2DD;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .conta {
-    border: none;
-    background-color: transparent;
-    color: #E4E2DD;
-    margin-top: 12px;
-    padding: 8px;
-    font-size: 16px;
-    font-weight: 700;
+  border: none;
+  background-color: transparent;
+  color: #E4E2DD;
+  margin-top: 12px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .conta:hover {
-    color: #043B64;
-    padding: 8px;
-    margin-top: 12px;
-    font-size: 16px;
-    font-weight: 700;
+  color: #043B64;
+  padding: 8px;
+  margin-top: 12px;
+  font-size: 16px;
 }
 
 .input-container {
-    position: relative;
-    margin-bottom: 16px;
+  position: relative;
+  margin-bottom: 16px;
 }
 
 .input-container svg {
-    width: 20px;
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #E4E2DD;
+  width: 18px;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #E4E2DD;
 }
 
 input {
-    width: 352px;
-    height: 22px;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 8px;
-    border: 2px solid #E4E2DD;
-    border-radius: 12px;
-    font-size: 14px;
-    background-color: transparent;
+  width: 352px;
+  height: 22px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border: 2px solid #E4E2DD;
+  border-radius: 12px;
+  font-size: 14px;
+  background-color: transparent;
 }
 
 input:focus {
-    outline: none;
-    caret-color: #E4E2DD;
-    color: #E4E2DD;
+  outline: none;
+  caret-color: #E4E2DD;
+  color: #E4E2DD;
 }
 
 input:not(:focus) {
-    color: #E4E2DD;
+  color: #E4E2DD;
 }
 
 ::placeholder {
-    color:#E4E2DD;
+  color:#E4E2DD;
+  opacity: 0.7;
 }
 
 .cadastrese {
-    width: 160px;
-    height: 40px;
-    background-color: #E4E2DD;
-    color: #E15C31;
-    border-radius: 24px;
-    border: none;
-    box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.20);
-    font-family: "DM Sans", sans-serif;
-    font-weight: 800;
-    font-size: 16px;
+  width: 160px;
+  height: 40px;
+  background-color: #E4E2DD;
+  color: #E15C31;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.20);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
 }
 
 .cadastrese:hover {
-    background-color: #043B64;
-    color: #E4E2DD;
-    transition: background-color 1s ease;
+  background-color: #043B64;
+  color: #E4E2DD;
+  transition: background-color 0.5s ease;
 }
 
 .cadastrese:not(:hover) {
-    transition: background-color 1s ease;
+  transition: background-color 0.5s ease;
 }
 
 .entre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
 }
 
 .login_icon {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-bottom: -4px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: -4px;
 }
 
 .icon-button {
-    border: none;
-    background-color: transparent;
+  border: none;
+  background-color: transparent;
 }
