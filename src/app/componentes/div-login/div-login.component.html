@@ -1,4 +1,5 @@
-<section class="retangulo">
+<section>
+  <div class="retangulo">
     <h1>Entre</h1>
     <div class="div-input">
         <div class="input-container">
@@ -37,8 +38,9 @@
                 </svg>
             </button>
         </div>
-        <button class="conta" routerLink="/div-cadastro" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <button class="conta" (click)="navegarParaCadastro()">
             Não tem uma conta? Cadastre-se
         </button>
     </div>
+  </div>
 </section>

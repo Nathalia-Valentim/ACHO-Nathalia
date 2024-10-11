@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DivCadastroComponent } from './componentes/div-cadastro/div-cadastro.component';
 import { DivLoginComponent } from './componentes/div-login/div-login.component';
 
-export const routes: Routes = [
+const routes: Routes = [
   { path: 'div-cadastro', component: DivCadastroComponent },
   { path: 'div-login', component: DivLoginComponent },
   { path: '', redirectTo: '/div-cadastro', pathMatch: 'full' }
@@ -14,4 +14,3 @@ export const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
