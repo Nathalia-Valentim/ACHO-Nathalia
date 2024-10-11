@@ -8,6 +8,8 @@
     padding: 16px 48px 0 48px;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
 .fundo img, .logo img {

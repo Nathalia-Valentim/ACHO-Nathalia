@@ -2,6 +2,11 @@ section {
   display: flex;
   justify-content: flex-end;
   padding-right: 200px;
+  position: absolute;
+  padding-top: 12%;
+  top: 0;
+  right: 0;
+  z-index: 2;
 }
 
 .retangulo {
