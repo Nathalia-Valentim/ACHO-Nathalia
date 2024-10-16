@@ -3,24 +3,23 @@
     align-items: center;
     justify-content: space-between;
     padding-right: 0px;
-    padding-bottom: 5px;
     padding-left: 72px;
 }
-    
+
 .seta_esquerda {
-    background: none; 
+    background: none;
     border: none;
     color: #E15C31;
     cursor: pointer;
 }
-  
+
 .seta_esquerda, .material-icons {
     font-size: 32px;
 }
 
 .categoria_hobbies {
     padding-left: 80px;
-    padding-top: 16px;
+    padding-top: 8px;
 }
 
 .categoria, .tipo_hobbies{
@@ -36,7 +35,7 @@
 .esportes {
     color: #E15C31;
     padding-left: 80px;
-    padding-bottom: 24px;
+    padding-bottom: 8px;
 }
 
 .grupo_categoria {
@@ -47,15 +46,15 @@
 }
 
 .grupo {
-    width: auto;
+    width: 50%;
     padding-left: 80px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    padding-bottom: 48px;
+    padding-bottom: 24px;
 }
 
 .grupo img {
-    max-width: 92%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -65,4 +64,10 @@ h2 {
     margin-bottom: 16px;
     font-weight: 600;
     color: #403939D9;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  padding-right: 104px;
 }
