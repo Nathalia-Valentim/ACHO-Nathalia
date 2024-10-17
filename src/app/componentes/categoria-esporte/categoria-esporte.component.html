@@ -11,18 +11,11 @@
 
 <h1 class="esportes">Esportes</h1>
 
-<div class="a">
-  <div class="grupo">
-    <h2>Futebol</h2>
-    <button class="grupo_categoria">
-        <img src="images/futebol.png" alt="">
-    </button>
-</div>
-
-<div class="grupo">
-    <h2>Basquete</h2>
-    <button class="grupo_categoria">
-        <img src="images/basquete.png" alt="">
-    </button>
-</div>
+<div class="container">
+    <div *ngFor="let categoria of categorias" class="grupo">
+        <h2>{{ categoria.nome }}</h2>
+        <button class="grupo_categoria">
+            <img [src]="categoria.imagem" alt="{{ categoria.nome }}">
+        </button>
+    </div>
 </div>

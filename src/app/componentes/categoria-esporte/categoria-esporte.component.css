@@ -38,19 +38,24 @@
     padding-bottom: 8px;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    padding-left: 80px;
+}
+
+.grupo {
+    width: 44%; 
+    margin-bottom: 24px; 
+    padding-right: 32px;
+}
+
 .grupo_categoria {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0px;
-}
-
-.grupo {
-    width: 50%;
-    padding-left: 80px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 24px;
+    padding: 0;
 }
 
 .grupo img {
@@ -60,14 +65,8 @@
 }
 
 h2 {
-    font-size: 24px;
-    margin-bottom: 16px;
+    font-size: 20px;
+    margin-bottom: 8px;
     font-weight: 600;
     color: #403939D9;
-}
-
-a {
-  display: flex;
-  flex-direction: row;
-  padding-right: 104px;
 }
