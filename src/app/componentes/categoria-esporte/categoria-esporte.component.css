@@ -40,14 +40,14 @@
 
 .container {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: flex-start;
     padding-left: 80px;
 }
 
 .grupo {
-    width: 44%; 
-    margin-bottom: 24px; 
+    width: 46%;
+    margin-bottom: 24px;
     padding-right: 32px;
 }
 
