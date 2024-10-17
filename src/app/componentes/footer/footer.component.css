@@ -1,5 +1,6 @@
 section {
-  padding-top: 120px;
+  padding-top: 40px;
+  padding-bottom: 24px;
 }
 
 footer {
@@ -18,19 +19,20 @@ hr {
   padding-top: 32px;
   max-width: 1200px;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-left, .footer-right {
-  width: 48%;
+  width: 44%;
+}
+
+li {
+  padding-bottom: 4px;
 }
 
 footer nav ul {
   list-style: none;
   padding: 0;
-}
-
-footer nav ul li {
-  margin: 5px 0;
 }
 
 footer a {
@@ -42,6 +44,8 @@ footer p {
   color: #403939;
   font-size: 16px;
   font-weight: 500;
+  margin: 0;
+  padding-bottom: 8px;
 }
 
 footer h2 {
@@ -53,6 +57,12 @@ footer li {
   font-weight: 500;
 }
 
+.social-icons {
+  padding-top: 16px;
+}
+
 .socials {
   padding-right: 16px;
+  width: 32px;
+  height: 32px;
 }
