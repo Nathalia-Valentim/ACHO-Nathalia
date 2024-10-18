@@ -1,0 +1,68 @@
+section {
+    padding-bottom: 40px;
+}
+
+.container_image {
+    display: flex;
+    justify-content: center;
+    position: relative; /* Torna a div a referência para posicionamento absoluto */
+}
+
+.fundo {
+    width: 84%;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.texto {
+    position: absolute; /* Coloca o texto sobre a imagem */
+    top: 60%; /* Ajuste conforme necessário */
+    width: 100%; /* Alinha ao centro */
+    text-align: center;
+}
+
+h1 {
+    color: #403939;
+    font-size: 40px;
+}
+
+.highlight {
+    color: #E15C31;
+}
+
+.botao {
+    position: absolute; /* Coloca o botão sobre a imagem */
+    top: 90%; /* Ajuste conforme necessário */
+    width: 100%; /* Alinha ao centro */
+    display: flex;
+    justify-content: center;
+}
+
+.comecar {
+    width: 160px;
+    height: 40px;
+    background-color: #E15C31;
+    color: #E4E2DD;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.20);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.comecar:hover {
+    background-color: #043B64;
+    color: #E4E2DD;
+    transition: background-color 0.5s ease;
+}
+  
+.comecar:not(:hover) {
+    transition: background-color 0.5s ease;
+}
