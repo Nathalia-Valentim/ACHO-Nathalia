@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding-right: 0px;
-    padding-left: 72px;
+    padding-left: 172px;
 }
 
 .seta_esquerda {
@@ -11,6 +11,8 @@
     border: none;
     color: #E15C31;
     cursor: pointer;
+    padding: 0;
+    height: 32px;
 }
 
 .seta_esquerda, .material-icons {
@@ -18,8 +20,7 @@
 }
 
 .categoria_hobbies {
-    padding-left: 80px;
-    padding-top: 8px;
+    padding-left: 176px;
 }
 
 .categoria, .tipo_hobbies{
@@ -34,19 +35,19 @@
 
 .esportes {
     color: #E15C31;
-    padding-left: 80px;
-    padding-bottom: 8px;
+    padding-left: 176px;
+    font-size: 28px;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding-left: 80px;
+    padding-left: 176px;
 }
 
 .grupo {
-    width: 46%;
+    width: 42%;
     margin-bottom: 24px;
     padding-right: 32px;
 }

@@ -1,6 +1,14 @@
-.logo {
-    width: 200px;
-    padding-top: 24px;
+header {
+    padding-bottom: 24px;
+}
+
+.logo img{
+    width: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 64px;
+    position: relative;
 }
 
 .fundo {
@@ -12,7 +20,7 @@
     z-index: 1;
 }
 
-.fundo img, .logo img {
-    max-width: 100%;
+.fundo img {
+    max-width: 97%;
     height: auto;
 }
