@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from "./componentes/navbar/navbar.component";
+import { NavbarComponent } from "./componentes/fundo-login/fundo-login.component";
 import { NavCompletaComponent } from "./componentes/nav-completa/nav-completa.component";
 import { CategoriaEsporteComponent } from "./componentes/categoria-esporte/categoria-esporte.component";
 import { FooterComponent } from "./componentes/footer/footer.component";

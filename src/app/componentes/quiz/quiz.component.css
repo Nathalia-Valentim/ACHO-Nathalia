@@ -1,67 +1,67 @@
 .container_image {
-    position: relative; /* O texto será posicionado em relação a este container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1px 176px 32px;
+  position: relative; /* O texto será posicionado em relação a este container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 176px 32px;
 }
 
 .fundo {
-    position: relative; /* Referência para o posicionamento absoluto */
+  position: relative; /* Referência para o posicionamento absoluto */
 }
 
 .fundo img {
-    width: 100%; /* Garante que a imagem seja responsiva */
-    height: auto;
-    opacity: 0.5;
-    display: block; /* Remove espaços extras ao redor da imagem */
+  width: 100%; /* Garante que a imagem seja responsiva */
+  height: auto;
+  opacity: 0.5;
+  display: block; /* Remove espaços extras ao redor da imagem */
 }
 
 .texto {
-    position: absolute; /* Faz o texto flutuar sobre a imagem */
-    top: 30%; /* Ajuste para alinhar o texto verticalmente */
-    left: 50%;
-    transform: translate(-50%, -30%); /* Centraliza o texto horizontalmente e ajusta verticalmente */
-    text-align: center;
-    width: 100%;
+  position: absolute; /* Faz o texto flutuar sobre a imagem */
+  top: 30%; /* Ajuste para alinhar o texto verticalmente */
+  left: 50%;
+  transform: translate(-50%, -30%); /* Centraliza o texto horizontalmente e ajusta verticalmente */
+  text-align: center;
+  width: 100%;
 }
 
 h1 {
-    color: #403939;
-    font-size: 4vw; /* Tamanho do texto ajustável */
+  color: #403939;
+  font-size: 4vw; /* Tamanho do texto ajustável */
 }
 
 .highlight {
-    color: #E15C31;
+  color: #E15C31;
 }
 
 .botao {
-    position: absolute; /* Faz o botão flutuar sobre a imagem */
-    top: 60%; /* Ajuste para alinhar o botão verticalmente */
-    left: 50%;
-    transform: translateX(-50%); /* Centraliza o botão horizontalmente */
-    text-align: center;
+  position: absolute; /* Faz o botão flutuar sobre a imagem */
+  top: 60%; /* Ajuste para alinhar o botão verticalmente */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza o botão horizontalmente */
+  text-align: center;
 }
 
 .comecar {
-    width: 160px;
-    height: 40px;
-    background-color: #E15C31;
-    color: #E4E2DD;
-    border-radius: 24px;
-    border: none;
-    box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.20);
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+  width: 160px;
+  height: 40px;
+  background-color: #E15C31;
+  color: #E4E2DD;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.20);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .comecar:hover {
-    background-color: #043B64;
-    color: #E4E2DD;
-    transition: background-color 0.5s ease;
+  background-color: #043B64;
+  color: #E4E2DD;
+  transition: background-color 0.5s ease;
 }
 
 .comecar:not(:hover) {
-    transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-fundo-login',
   standalone: true,
   imports: [],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  templateUrl: './fundo-login.component.html',
+  styleUrl: './fundo-login.component.css'
 })
 export class NavbarComponent {
 

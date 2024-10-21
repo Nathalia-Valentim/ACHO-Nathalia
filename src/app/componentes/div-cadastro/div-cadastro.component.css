@@ -1,9 +1,9 @@
 section {
   display: flex;
   justify-content: flex-end;
-  padding-right: 200px;
+  padding-right: 320px;
   position: absolute;
-  padding-top: 18%;
+  padding-top: 15%;
   top: 0;
   right: 0;
   z-index: 2;
